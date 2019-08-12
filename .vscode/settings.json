@@ -1,0 +1,32 @@
+{
+    // vscode默认启用了根据文件类型自动设置tabsize的选项
+    "editor.detectIndentation": false,
+    // 重新设定tabsize
+    "editor.tabSize": 4,
+    // #每次保存的时候自动格式化 
+    "editor.formatOnSave": true,
+    //eslint 代码自动检查相关配置
+    "eslint.enable": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.run": "onType",
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".vue"
+        ]
+    },
+    "eslint.validate": [
+        "javascriptreact",
+        "vue",
+        "javascript",
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        "html",
+        {
+            "language": "html",
+            "autoFix": true
+        }
+    ],
+}
